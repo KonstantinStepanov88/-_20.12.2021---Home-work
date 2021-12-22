@@ -2,7 +2,7 @@
 int number = new Random().Next(-1000, 100000);
 Console.WriteLine(number);
 string numberA = number.ToString();
-if(numberA.Length < 2)
+if(numberA.Length < 3)
 {
     Console.WriteLine("третьей цифры нет");
 }
